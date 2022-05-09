@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 40px;
+}
+#logo img{
+    height: 45px;
+    width: 35px;
+    filter: invert(1);
+}
+#logo span{
+    font-size: 0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar{
+    background-color: #ad4646;
+    padding: 13px 14px;
+    font-family: 'Tapestry', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px 35px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 400px;
+    background: url(/static/bgm.jpg) no-repeat center center/cover;
+}
+#introSection div.small{
+    font-size: 2rem;
+    padding: 12px;
+}
+#missionSection{
+    height: 310px;
+    width: 80%;
+    margin: auto;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card{
+    display: inline-block;
+    width: 29%;
+    border: 2px solid black;
+    margin: 28px 22px 0px;
+    border-radius : 10px;
+    height : 200px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 15px;
+}
+.card-box{
+    display: flex;
+    height: 144px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 8px;
+}
+.card-img img{
+    height: 60px;
+    padding-right: 15px;
+}
+#sponsorsSection{
+    
+    background-color: #ad4646b0;
+    height: 300px;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#sponsors{
+    width: fit-content;
+    margin: 45px auto;
+}
+.spImage{
+    height: 100px;
+    padding: 0px 20px;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
